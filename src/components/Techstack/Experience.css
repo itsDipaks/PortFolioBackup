@@ -28,13 +28,14 @@ margin: auto;
   margin-top: 10px;
 }
 .Timgs1{
-width: 120px;
+width: 80px;
 margin: auto;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
 border-radius: 20px;
 padding: 2px;
 display: flex;
 justify-content: center;
+
 }
 .Timgs{
 width: 80px;

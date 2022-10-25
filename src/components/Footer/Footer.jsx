@@ -29,7 +29,7 @@ const Footer = () => {
 
   <div className="data1">
     <img src={location} alt="" />
-      <h4>At Post : Sonambe ,Sinner-42213,Dist-Nashik,Maharashtra</h4></div>
+ <h4>At Post : Sonambe ,Sinner-42213,Dist-Nashik,Maharashtra</h4></div>
 </div>
 
 
