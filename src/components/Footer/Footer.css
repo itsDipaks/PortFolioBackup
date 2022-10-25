@@ -1,0 +1,77 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -9rem;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15rem;
+  gap: 4rem;
+  /* left: 120px; */
+  color: white;
+}
+.f-icons {
+  
+}
+.hr{
+  color: red;
+  position: absolute;
+}
+.fouterdiv{
+  width: 100%;
+}
+.fdiv{
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+.fdiv>div{
+  /* border: 1px solid red; */
+}
+.data{
+  display: flex;
+  align-items: center;
+  width: 30%;
+justify-content: space-evenly;
+}
+.data>img{
+  width: 40px;
+}
+.data>h4{
+  font-size: 16px;
+}
+.data1{
+  width: 20%;
+ 
+  /* border: 1px solid red; */
+  align-items: center;
+  display: flex;
+ left: 20px;
+  margin: auto;
+justify-content: space-evenly;
+}
+.data1>img{
+  width: 50px;
+  /* margin-left: 10px; */
+}
+.data1>h4{
+  font-size: 16px;
+}
+
+
+p{
+  font-size: 12px;
+}
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+  }
+}
