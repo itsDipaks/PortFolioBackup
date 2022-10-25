@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="awesome">
         {/* darkMode */}
         <h1 style={{color: darkMode ? "white" : ""}}>Get in Touch</h1>
-        <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
+     
       </div>
 
       <div className="contact-form">

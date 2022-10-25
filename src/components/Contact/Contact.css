@@ -1,7 +1,7 @@
 .contact-form{
     /* padding: 0 3rem 0 3rem; */
     display: flex;
-    height: 80vh;
+    /* height: 80vh; */
     /* margin-top: 4rem; */
     width: 100%;
     align-items: center;
@@ -68,10 +68,15 @@ textarea{
         padding: 0;
         flex-direction: column;
         gap: 5rem;
-        height: 40rem;
+        /* height: 40rem; */
     }
     .c-right .user{
         width: 16rem;
     }
-
+    .w-left{
+       display: none;
+    }
+    .c-right>h1{
+        display: none;
+    }
 }   

@@ -4,7 +4,7 @@
   width: 100%;
   /* margin-bottom: 8rem; */
 
-  margin-top: 12rem;
+  margin-top: 22rem;
   margin-bottom: 13rem;
   padding-top: 3rem;
 /* background: var(--black); */
@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
 width: 100%;
+
 /* border: 1px solid green; */
   justify-content: space-between;
 }
@@ -30,7 +31,7 @@ width: 100%;
   /* margin-bottom: 20px; */
 
   /* border: 1px solid red; */
-  height: 100vh;
+  height: 90vh;
 }
 .rightside > div >*{
  margin-left: 100px;
@@ -40,27 +41,73 @@ width: 100%;
   margin-top: -40px;
   text-align: center;
 }
-.heading{
-  display: flex;
-  z-index: -1;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.heading>:nth-child(1){
-  text-align: start;
-}
+
 .rightside {
   width: 50%;
+  margin-top: 20px;
   /* border: 1px solid rgb(255, 3, 3); */
 margin: auto;
 }
 
 @media screen and (max-width: 480px) {
   .about {
-    margin-top: 0;
+    display: flex;
     flex-direction: column;
-    gap: 5rem;
-    height: 66rem;
-    padding: 0;
+    align-items: center;
+  width: 100%;
+  /* border: 1px solid green; */
+    justify-content: space-between;
   }
+
+  .leftside {
+    width: 98%;
+    text-align: start;
+    margin-top: -400px;
+    font-size: 12px;
+    /* border: 1px solid rgb(255, 3, 3); */
+  }
+  .rightside > div {
+    /* background-color: black; */
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 20px; */
+  
+    /* border: 1px solid red; */
+    height: 100vh;
+  }
+
+  .outerDiv {
+    padding: 0 1rem 1rem;
+    height: 20rem;
+    width: 100%;
+    /* margin-bottom: 8rem; */
+  
+    margin-top: 0rem;
+    margin-bottom: 13rem;
+    padding-top: 1rem;
+  /* background: var(--black); */
+  }
+
+  .rightside {
+    width:90%;
+    margin-top: 80px;
+    /* border: 1px solid rgb(255, 3, 3); */
+  /* margin: auto; */
+  }
+  .rightside > div >*{
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 0px;
+   }
+.accordion-body>h6{
+  font-weight: 800;
+  font-size: 10px;
+}
+.accordion-body>span{
+  font-weight: 800;
+  font-size: 10px;
+}
+.accordion-header {
+  font-size: 10px;
+}
 }

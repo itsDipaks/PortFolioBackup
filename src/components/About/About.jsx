@@ -11,18 +11,11 @@ const Services = () => {
 
   return (
     <div className="outerDiv" id="services">
-      <div className="heading">
-      <h1>
-        About <span>Me,</span>
-      </h1>
-      <h2>
-        Qualification
-      </h2>
-      </div>
- 
-
       <div className="about">
         <div className="leftside">
+        <h1>
+        About <span>Me,</span>
+      </h1>
           An enthusiastic full-stack web developer, with an ability to write
           efficient code using MERN stack. Highly proficient in building
           interactive and user-friendly websites. Hands-on experience in
@@ -32,12 +25,12 @@ const Services = () => {
           simpley dummy text of printing
         </div>
         <div className="rightside">
-          {/* <h1>Education</h1> */}
+          <h1>Education</h1>
           <div>
             <Accordion defaultActiveKey={["0"]} alwaysOpen>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Full Stack Web Developer</Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body >
                   <h6>Masai School ,Bangaluru</h6>
                   <span>Jan 2021 - Nov 2022</span>
                 </Accordion.Body>
@@ -59,6 +52,8 @@ const Services = () => {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+
+            
           </div>
         </div>
       </div>

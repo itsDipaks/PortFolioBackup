@@ -123,7 +123,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="projetbox"></div>
+       
       </div>
     </div>
   );

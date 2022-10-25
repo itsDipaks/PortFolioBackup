@@ -28,7 +28,7 @@
 }
 .sliderbox{
 border-radius: 50px;
-height: 100px;
+height: 50px;
 width: 90%;
 margin: auto;
 background-color: white;
@@ -81,7 +81,7 @@ font-size: 16px;
   }
   .gridDiv{
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(3,85vh);
+    grid-template-rows: repeat(3,65vh);
   
   }
 
@@ -131,10 +131,21 @@ font-size: 16px;
     margin-bottom: 200px;
   }
   .gridDiv{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(3,80vh);
     gap: 10px;
+    width: 100%;
   }
+.projetbox{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+  border-radius: 30px;
+  /* z-index: -1; */
+}
+
   .sliderbox{
     border-radius: 50px;
     height: 100px;
