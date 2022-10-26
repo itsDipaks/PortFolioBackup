@@ -7,10 +7,11 @@
     align-items: center;
       /* scroll */
       justify-content: space-around;
-  padding-top: 3rem;
+
 }
 .awesome{
         padding: 0 3rem 0 3rem;
+       
 
 }
 .awesome>:nth-child(1){
@@ -69,7 +70,11 @@ textarea{
         flex-direction: column;
         gap: 5rem;
         /* height: 40rem; */
+        margin-top: 50px;
     }
+   .awesome{
+    margin-top: 1200px;
+   }
     .c-right .user{
         width: 16rem;
     }
